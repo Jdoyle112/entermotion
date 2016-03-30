@@ -1,0 +1,397 @@
+body{
+	margin: 0;
+	padding: 0;
+	/*background: url("images/background.jpg") no-repeat center center;
+	background-size: cover;*/
+}
+
+
+/*    HEADER    */
+
+
+.header {
+	background: url("images/header.png");
+	background-size: cover;
+	height: 75vh;
+}
+
+.header .container {
+	height: 75vh;
+}
+
+/*.color {
+  background-color: rgb(65, 64, 66);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1180px;
+  height: 672px;
+  z-index: 4;
+}*/
+
+.header h2 {
+  font-size: 48px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+.header .care {
+	color: rgb(0, 121, 112);
+}
+
+.header-main {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+}
+
+.header-main img {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/*   NAV   */
+
+
+.nav {
+  font-size: 14.5px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(188, 190, 192);
+  text-transform: uppercase;
+  line-height: 2.483;
+  display: inline-block;
+}
+
+.nav a {
+	color: rgb(188, 190, 192);
+}
+
+.nav li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+.header .row {
+	margin-top: 40px;
+}
+
+
+/*   MAIN   */
+
+
+.main {
+	border-top: 3px solid;
+	border-bottom: 3px solid;
+	border-color: rgb(28, 155, 151);
+	background-color: rgb(65, 64, 66);
+	height: 500px;
+}
+
+.main .container {
+	height: 100%;
+	width: 100%;
+	background: url("images/layer1.png");
+	background-size: cover;
+	padding: 0 5%;
+}
+
+.main h3 {
+  font-size: 34px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 55px;
+}
+
+.main p {
+  font-size: 21px;
+  font-family: "ProximaNova", "Montserrat", sans-serif;
+  color: rgb(188, 190, 192);
+  line-height: 1.625;
+  text-align: center;
+}
+
+.main .icons p {
+  font-size: 18px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(128, 130, 133);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icons {
+	text-align: center;
+	width: 70%;
+	margin: 35px auto 0;
+}
+
+.heart {
+	position: relative;
+	top: -22px;
+	left: 80px
+}
+
+
+
+/*   JUMBOTRON   */
+
+
+.jumbotron {
+	background: url("images/layer2.png") no-repeat center center;
+	background-size: cover;
+    background-color: rgb(94, 162, 162);
+    height: 302px;
+    z-index: 31;
+    margin-bottom: 0;
+}
+
+.jumbotron a {
+  font-size: 16px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 27px;
+  float: left;
+  top: -16px;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  z-index: 41;
+}
+
+.get-start {
+	margin-top: 40px;
+}
+
+.link {
+  background-color: rgb(28, 155, 151);
+  width: 140px;
+  position: relative;
+  right: -150px;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.left {
+	background-color: rgb(0, 121, 112);
+	width: 72px;
+	position: relative;
+	padding: 4px 35px;
+	top: 2px;
+	z-index: 40;
+}
+
+.jumbotron img {
+	position: relative;
+	right: -170px;
+}
+
+.jumbotron h3 {
+  font-size: 30px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 5%;
+}
+
+.jumbotron p {
+  font-size: 18.459px;
+  font-family: "ProximaNova", "Montserrat", sans-serif;
+  color: rgb(220, 221, 222);
+  line-height: 1.714;
+  text-align: left;
+  -moz-transform: matrix( 0.75842629349796,0,0,0.75842752024421,0,0);
+  -webkit-transform: matrix( 0.75842629349796,0,0,0.75842752024421,0,0);
+  -ms-transform: matrix( 0.75842629349796,0,0,0.75842752024421,0,0);
+  position: relative;
+  left: -10%;
+  width: 125%;
+}
+
+
+
+/*   FOOTER   */
+
+
+
+.footer h2 {
+  font-size: 30px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(0, 121, 112);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.tm {
+	color: rgb(0, 121, 112);
+}
+
+.footer p {
+  font-size: 16px;
+  font-family: "ProximaNova", "Montserrat", sans-serif;
+  color: rgb(177, 179, 182);
+  line-height: 2;
+  text-align: left;
+
+}
+
+.footer h5 {
+  font-size: 19px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.footer .foot-p {
+  font-size: 18.459px;
+  font-family: "ProximaNova", "Montserrat", sans-serif;
+  color: rgb(220, 221, 222);
+  line-height: 1.714;
+  text-align: left;
+  /*position: relative;
+  left: -9%;*/
+}
+
+.footer ul {
+  font-size: 14px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(88, 89, 91);
+  text-transform: uppercase;
+  line-height: 2.429;
+  text-align: left;
+}
+
+.footer {
+    background-image: -moz-linear-gradient( 90deg, rgb(88,89,91) 0%, rgb(177,179,182) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(88,89,91) 0%, rgb(177,179,182) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(88,89,91) 0%, rgb(177,179,182) 100%);
+  height: 350px;
+}
+
+.footer .container {
+	height: 350px;
+	z-index: 100;
+	background: url("images/layer3.png") no-repeat;
+	background-position: 50% -50%;
+}
+
+.nav-foot {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.footer img {
+	width: 60%;
+	float: right;
+}
+
+.footer .row {
+	padding-top: 40px;
+}
+
+.footer li a {
+  font-size: 14px;
+  font-family: "SohoGothicStd", "Oswald", sans-serif;
+  color: rgb(88, 89, 91);
+  text-transform: uppercase;
+  line-height: 2.429;
+  text-align: left;
+}
+
+
+
+/*    MEDIA    */
+
+
+@MEDIA(max-width: 990px){
+	.nav li a{
+		padding: 0;
+	}
+
+}
+
+
+@MEDIA(max-width: 1200px){
+
+	.nav-div {
+		padding: 0;
+	}
+}
+
+@MEDIA(max-width: 960px){
+
+	.icons {
+		width: 100%;
+	}
+}
+
+@MEDIA(max-width: 650px){
+
+	.icons div {
+		width: 100%;
+	}
+
+	.main {
+		height: 900px;
+	}
+	.nav {
+		float: right;
+		margin-right: 30px;
+	}
+	.nav li {
+		display: block;
+	}
+
+}
+
+@MEDIA(max-width: 980px){
+
+	.jumbotron {
+		height: 500px;
+	}
+
+	.jumbotron img {
+		right: -300px;
+	}
+
+	.link {
+		right: -280px;
+	}
+
+	.footer {
+		height: 450px;
+	}
+	.footer h5 {
+		text-align: center !important;
+		margin-top: 40px;
+	}
+	.footer p{
+		text-align: center !important;
+	}
+	.footer h2 {
+		text-align: center !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
